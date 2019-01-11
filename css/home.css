@@ -1,0 +1,146 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0%;
+    overflow: hidden;
+}
+body {
+    position: absolute;
+}
+#collegeambassador {
+    font-family: Playfair Display,serif;
+    font-size: 75px;
+}
+.header {
+    font-family: Playfair Display,serif;
+    font-size: 50px;
+}
+p {
+    font-size: 25px;
+}
+#leadyourclg {
+    font-size: 40px;
+}
+#bold-list {
+    font-size : 27px !important;
+}
+#ca-info {
+    font-size: 20px;
+}
+#menu li {
+    margin: 10px;
+}
+.logo {
+    font-size: 30px;
+    font-family: Georgia;
+    color: white;
+    padding-top: 0px; 
+    padding-right: 0px;
+}
+#menu li a.active {
+    /* text-shadow: 0 0 10px gold; */
+    color: white;
+}
+
+#menu li a:hover {
+    color: white;
+    text-shadow: 0 0 5px yellow;
+}
+#menu li .active {
+    color: white;
+}
+#home {
+    height: 100%;
+    padding: 5%;
+}
+#about {
+    height: 100%;
+    color: black;
+    background-color: #E3E2DB;
+    padding: 5%;
+}
+#ca {
+    height: 100%;
+    color: white;
+    padding: 5%;
+}
+#incentives {
+    height: 100%;
+    color: black;
+    background: #E3E2DB;
+	padding: 5%;
+}
+#responsibilities {
+    height: 100%;
+    color: white;
+    padding: 5%;
+}
+/* #img {
+    width: 375px;
+    height: auto;
+} */
+#faq {
+    height: 100%;
+    color: black;
+    padding: 5%;
+    background: #E3E2DB;
+}
+
+#fullpage p{
+	text-align:justify;
+}
+.logo1 {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo1 {
+        display: block;
+        position: relative;
+        margin-left: 0%;
+        color: white;
+        font-size: 25px;
+        font-family: Georgia;
+    }
+    #img {
+        width: 100%;
+        height: 100%;
+    }
+    .logo {
+        display: none;
+        
+    }
+    .navbar-header{
+        position: relative;
+    }
+    .col-sm-4 {
+        display: none;
+    }
+    .header {
+        font-family: Playfair Display,serif;
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+    #ca-info {
+        font-size: 15px;
+    }
+    #collegeambassador {
+        font-family: Playfair Display,serif;
+        font-size: 30px;
+    }
+    #leadyourclg {
+        font-size: 15px;
+    }
+    #bold-list {
+        font-size: 22px !important;
+    }
+    #faq {
+        padding-bottom: 15%;
+    }
+    #menu {
+        padding: 0%;
+    }
+}
